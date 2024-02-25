@@ -1,0 +1,139 @@
+.jobs-bg-container{
+    background-color: #000000;
+    height: 100%;
+    padding: 20px;    
+}
+.searchbar-container{    
+    border: 1px solid #64748b;
+    display: flex;
+    justify-content: space-between;    
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.search-input{
+    flex-grow: 1;
+    background-color: black;
+    padding: 5px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.search-btn{
+    background-color: #202020;    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 45px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon{
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+.user-profile-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+.user-profile-container{
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+    border-radius: 12px;
+    margin: 0 0 18px 0;
+    padding: 10px;
+    padding-bottom: 20px;    
+}
+.profile-img{
+    width: 50px;
+    height: 50px;
+    /* margin-top: 10px; */
+}
+.user-name{
+    padding: 0;
+    margin: 8px 0 0 0;
+    font-size: 18px;
+}
+.user-bio{    
+    margin: 14px 0 0 0;
+    font-size: 14px;
+}
+.filter-list-container{
+    color: white;
+    list-style: none;
+    margin-bottom: 30px;
+}
+.filter-title{
+    font-size: 16px;
+}
+.each-job-type{
+    margin-top: 10px;        
+    display: flex;
+    align-items: center;
+}
+.checkbox{
+    margin-right: 10px;
+}
+.label{
+    font-size: 13px;      
+}
+.retry-btn{
+    background-color:  #4f46e5;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sm-input-container{
+    display: block;
+}
+.md-searchbar-container{
+    display: none;
+    width: 40vw;
+}
+.jobs-list-container{
+    list-style: none;    
+}
+.jobs-loading-container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.failure-container{
+    color: white;
+    text-align: center;
+}
+.no-job-found-container{
+    color: white;
+    text-align: center;    
+}
+.no-job-found-img{
+    width: 40vw;
+}
+@media screen and (min-width: 768px) {
+    .jobs-bg-container{
+        display: flex;
+    }
+    .progile-filter-section{
+        width: 30vw;
+        margin-right: 30px;
+    }
+    .sm-input-container{
+        display: none;
+    }
+    .md-searchbar-container{
+        display: block;
+    }
+    .jobs-list-container{        
+        width: 60vw;
+    }
+}
